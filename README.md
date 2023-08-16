@@ -72,10 +72,10 @@ import random
 5. Next, we’ll create a variable to store the randomly generated value. Declare a variable called `random_number`, and assign it to the function call:
 
 ```
-random.randint(1, 9)
+random.randint(1, 23)
 ```
 
-which will generate a random number between `1` (inclusive) and `9` (inclusive).
+which will generate a random number between `1` (inclusive) and `23` (inclusive).
 
 Next, add a `print()` statement that outputs the value of `random_number`, and run the program several times to ensure random values are being generated as expected.
 
@@ -112,6 +112,8 @@ Recall that the 9 possible answers of the Magic 8-Ball are:
     8.  `Outlook not so good`
 
     9.  `Very doubtful`
+
+    and so on...
 
 8. Following the `if`/`elif` statements, add an `else` statement that will set `answer` to the string “Error”, if the number was accidentally assigned a value outside of our range.
 
